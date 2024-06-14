@@ -1,0 +1,79 @@
+{
+    "robot_ids": [
+        "91e8bb63-dd6a-4fa7-b2ec-cc1673143c3f"
+    ],
+    "resolutions": [
+        "20"
+    ],
+    "slices": [
+        "0"
+    ],
+    "sample_sizes": [
+        "50000",
+        "100000",
+        "125000",
+        "150000",
+        "175000",
+        "200000"
+    ],
+    "data": {
+        "91e8bb63-dd6a-4fa7-b2ec-cc1673143c3f": {
+            "info": {
+                "n_joints": 6
+            },
+            "20": {
+                "0": {
+                    "fk": {
+                        "50000": {
+                            "cnt": 139,
+                            "coverage": 78.07,
+                            "time": 5.49
+                        },
+                        "100000": {
+                            "cnt": 142,
+                            "coverage": 75.44,
+                            "time": 10.98
+                        },
+                        "125000": {
+                            "cnt": 144,
+                            "coverage": 73.68,
+                            "time": 13.91
+                        },
+                        "150000": {
+                            "cnt": 147,
+                            "coverage": 71.05,
+                            "time": 17.14
+                        },
+                        "175000": {
+                            "cnt": 146,
+                            "coverage": 71.93,
+                            "time": 18.88
+                        },
+                        "200000": {
+                            "cnt": 147,
+                            "coverage": 71.05,
+                            "time": 21.47
+                        }
+                    },
+                    "ik": {
+                        "cnt": 114,
+                        "time": 1.29
+                    },
+                    "slc_info": {
+                        "slice_id": 14,
+                        "z_val": 0.9473684210526314
+                    }
+                }
+            }
+        }
+    },
+    "settings": {
+        "ignore_self_collision": false,
+        "with_manip_index": true,
+        "robotType": "3d default",
+        "min_val": -2,
+        "max_val": 2,
+        "nJoint_min": 5,
+        "nJoint_max": 5
+    }
+}

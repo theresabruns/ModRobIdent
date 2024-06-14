@@ -1,0 +1,33 @@
+{
+    "robot_ids": ["robot_uid1", "robot_uid2"],
+    "resolutions": ["res1", "res2"],
+    "slices": ["slice_nr1", "slice_nr2"],
+    "sample_sizes": ["sample_cnt1", "sample_cnt2"],
+    "data": {
+        "robot_uid1": {
+            "resolution": {
+                "slice_nr1": {
+                    "fk": {
+                        "sample_cnt1": {
+                            "cnt": "int",
+                            "coverage": "float",
+                            "time": "float"
+                        }
+                    },
+                    "ik": {
+                        "cnt": "int",
+                        "time": "float"
+                    },
+                    "slc_info": {
+                        "slice_id": "int",
+                        "z_val": "float"
+                    }
+                }
+            },
+            "info": {
+                "n_joints": "int"
+            }
+        },
+        "robot_uid2": {}
+    }
+}
